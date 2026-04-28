@@ -35,13 +35,11 @@ function changeOperator(newOperator) {
         pastAnswer = false;
     }
     if (operands.at(0) != "") { 
-        if (operands.at(1) === "") {
-            operator = newOperator;
-        }
-        else {
+        if (operands[1] != "") {
             operate();
-            operator = newOperator;
+            pastAnswer = false;
         }
+        operator = newOperator;
         
 
     }

@@ -47,3 +47,8 @@ button:active {
     /* Optional: Keep it dark for a moment after release */
     transition: opacity 0s;
 }
+
+
+.clear {
+    border-radius: 0%;
+}

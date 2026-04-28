@@ -28,7 +28,7 @@ button {
     border: none;
 }
 
-.operator {
+.operate, .operator {
     background-color: #FF9500;
 }
 
@@ -39,4 +39,11 @@ button {
     color: white;
     margin-left: auto;
     margin-top: auto;
+}
+
+
+button:active {
+    opacity: 50%;
+    /* Optional: Keep it dark for a moment after release */
+    transition: opacity 0s;
 }
